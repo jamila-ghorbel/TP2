@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <title>Galerie - IIT</title>
     <!-- Traqly — Session Replay (généré automatiquement) -->
-<script src="https://cdn.jsdelivr.net/npm/rrweb@2.1.0/dist/rrweb.min.js"></script>
+<script type="module">
+  import * as rrwebLib from "https://cdn.jsdelivr.net/npm/rrweb@2.1.0/+esm";
+  window.rrweb = rrwebLib;
+</script>
 <script src="http://localhost:3000/t/4fed9d62-59df-426b-a902-6cd37df7901e.js" async></script>
 <script>
   function traqlyInitConsentBanner() {
